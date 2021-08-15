@@ -36,6 +36,6 @@
 
             </ul>
         </nav><!-- .nav-menu -->
-        <a href="https://wa.link/qlqliv" class="get-started-btn scrollto">Donasi</a>
+        <a href="https://wa.link/qlqliv" class="get-started-btn scrollto">Donasi Sekarang</a>
      </div>
 </header><!-- End Header -->

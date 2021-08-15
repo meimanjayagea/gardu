@@ -1,42 +1,11 @@
 @extends('website.layouts.apps')
 @section('content')
-<!-- ======= Clients Section ======= -->
-<section id="clients" class="clients section-bg">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center" data-aos="zoom-in">
-                <img src="{{asset('img/ido.jpg')}}" class="img-fluid" alt="IDO Mentor" height="100px" width="150px">
-            </div>
-
-            <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center" data-aos="zoom-in">
-                <img src="" class="img-fluid" alt="IDO Mentor">
-            </div>
-
-            <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center" data-aos="zoom-in">
-                <img src="" class="img-fluid" alt="IDO Mentor">
-            </div>
-
-            <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center" data-aos="zoom-in">
-                <img src="" class="img-fluid" alt="IDO Mentor">
-            </div>
-
-            <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center" data-aos="zoom-in">
-                <img src="" class="img-fluid" alt="IDO Mentor">
-            </div>
-
-            <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center" data-aos="zoom-in">
-                <img src="g" class="img-fluid" alt="IDO Mentor">
-            </div>
-        </div>
-    </div>
-</section><!-- End Clients Section -->
-
 <div class="container mt-2">
     <div class="row" data-aos="fade-down">
         <div class="col-md-6">
             <div class="card flex-md-row mb-4 box-shadow h-md-250">
                 <div class="card-body d-flex flex-column align-items-start">
-                    <strong class="d-inline-block mb-2 text-primary"><a href="{{url('/article')}}">Article</a></strong>
+                    <strong class="d-inline-block mb-2 text-primary"><a href="{{url('/article')}}">Artikel</a></strong>
                     <h5 class="mb-0">
                         <a class="text-dark" href="{{url('/view')}}">Perlindungan Tuhan begitu
                             Dahsyat</a>
@@ -44,7 +13,7 @@
                     <div class="mb-1 text-muted">Nov 12</div>
                     <p class="card-text mb-auto">Setiap manusia pasti memiliki masalah dalam hidup entah susah karena
                         ekonomi, pekerjaan, rumah-tangga, teman, sakit penyakit ataupun masalah lainnya.</p>
-                    <a href="{{url('/view')}}">Continue reading</a>
+                    <a href="{{url('/view')}}">Lanjut membaca</a>
                 </div>
                 <img class="card-img-right flex-auto d-none d-md-block" src="{{asset('img/ar1.jpg')}}"
                     alt="Card image cap" height="300px" width="200px">
@@ -53,14 +22,14 @@
         <div class="col-md-6">
             <div class="card flex-md-row mb-4 box-shadow h-md-250">
                 <div class="card-body d-flex flex-column align-items-start">
-                    <strong class="d-inline-block mb-2 text-success"><a href="{{url('/article')}}">Article</a></strong>
+                    <strong class="d-inline-block mb-2 text-success"><a href="{{url('/article')}}">Artikel</a></strong>
                     <h5 class="mb-0">
                         <a class="text-dark" href="{{url('/view')}}">Penyerahan Diri Kepada Tuhan</a>
                     </h5>
                     <div class="mb-1 text-muted">Nov 11</div>
                     <p class="card-text mb-auto">Setiap manusia pasti memiliki masalah dalam hidup entah susah karena
                         ekonomi, pekerjaan, rumah-tangga, teman, sakit penyakit ataupun masalah lainnya.</p>
-                    <a href="{{url('/view')}}">Continue reading</a>
+                    <a href="{{url('/view')}}">Lanjut membaca</a>
                 </div>
                 <img class="card-img-right flex-auto d-none d-md-block" src="{{asset('img/ar2.jpg')}}"
                     alt="Card image cap" height="300px" width="200px">
@@ -316,6 +285,18 @@
             <div class="row justify-content-end">
                 <div class="col-lg-3 col-md-5 col-6 d-md-flex align-items-md-stretch">
                     <div class="count-box">
+                        <span data-toggle="counter-up">27</span>
+                        <p>Anak Binaan</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-5 col-6 d-md-flex align-items-md-stretch">
+                    <div class="count-box">
+                        <span data-toggle="counter-up">8</span>
+                        <p>Pengurus</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-5 col-6 d-md-flex align-items-md-stretch">
+                    <div class="count-box">
                         <span data-toggle="counter-up">2</span>
                         <p>Pengawas</p>
                     </div>
@@ -324,20 +305,6 @@
                     <div class="count-box">
                         <span data-toggle="counter-up">3</span>
                         <p>Pembina</p>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-5 col-6 d-md-flex align-items-md-stretch">
-                    <div class="count-box">
-                        <span data-toggle="counter-up">8</span>
-                        <p>Pengurus</p>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-5 col-6 d-md-flex align-items-md-stretch">
-                    <div class="count-box">
-                        <span data-toggle="counter-up">27</span>
-                        <p>Anak Asuh</p>
                     </div>
                 </div>
             </div>

@@ -10,16 +10,28 @@
                 <img class="first-slide img-fluid" src="{{asset('img/utama.jpg')}}" alt="">
                 <div class="container">
                     <div class="carousel-caption">
-                        <a class="btn btn-lg btn-success" title="Whatsapp Yayasan Gardu"
-                            href="https://wa.link/qlqliv">Hubungi kami!</span></a>
+                        <a class="get-started-btn scrollto" title="Whatsapp Yayasan Gardu"
+                            href="https://wa.link/qlqliv">DONASI SEKARANG</span></a>
                     </div>
                 </div>
             </div>
             <div class="carousel-item">
                 <img class="second-slide img-fluid" src="{{asset('img/2.jpg')}}" alt="">
+                 <div class="container">
+                    <div class="carousel-caption">
+                        <a class="get-started-btn scrollto" title="Whatsapp Yayasan Gardu"
+                            href="https://wa.link/qlqliv">DONASI SEKARANG</span></a>
+                    </div>
+                </div>
             </div>
             <div class="carousel-item">
                 <img class="third-slide img-fluid" src="{{asset('img/3.jpg')}}" alt="">
+                 <div class="container">
+                    <div class="carousel-caption">
+                        <a class="get-started-btn scrollto" title="Whatsapp Yayasan Gardu"
+                            href="https://wa.link/qlqliv">DONASI SEKARANG</span></a>
+                    </div>
+                </div>
             </div>
         </div>
         
