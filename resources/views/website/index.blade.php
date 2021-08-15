@@ -85,9 +85,8 @@
 </section><!-- End Cta Section -->
 <!--Kegiatan-->
 <main role="main">
-    <div class="album py-5 bg-light" data-aos="fade-up">
+    <div class="album py-4 bg-light" data-aos="fade-up">
         <div class="container">
-
             <div class="row">
                 <div class="col-md-3" >
                     <div class="card mb-4 box-shadow">
@@ -97,7 +96,7 @@
                                 additional content. This content is a little bit longer.</p>
                             <div class="d-flex justify-content-between align-items-center">
                                 <div class="btn-group">
-                                    <a href="{{url('/view')}}" class="btn btn-sm btn-outline-secondary">Read
+                                    <a href="{{url('/view')}}" class="btn btn-sm btn-outline-info">Read
                                         more</a>
                                 </div>
                                 <small class="text-muted">9 mins</small>
@@ -113,7 +112,7 @@
                                 additional content. This content is a little bit longer.</p>
                             <div class="d-flex justify-content-between align-items-center">
                                 <div class="btn-group">
-                                    <a href="{{url('/view')}}" class="btn btn-sm btn-outline-secondary">Read
+                                    <a href="{{url('/view')}}" class="btn btn-sm btn-outline-info">Read
                                         more</a>
                                 </div>
                                 <small class="text-muted">9 mins</small>
@@ -129,7 +128,7 @@
                                 additional content. This content is a little bit longer.</p>
                             <div class="d-flex justify-content-between align-items-center">
                                 <div class="btn-group">
-                                    <a href="{{url('/view')}}" class="btn btn-sm btn-outline-secondary">Read
+                                    <a href="{{url('/view')}}" class="btn btn-sm btn-outline-info">Read
                                         more</a>
                                 </div>
                                 <small class="text-muted">9 mins</small>
@@ -146,7 +145,7 @@
                                 additional content. This content is a little bit longer.</p>
                             <div class="d-flex justify-content-between align-items-center">
                                 <div class="btn-group">
-                                    <a href="{{url('e/view')}}" class="btn btn-sm btn-outline-secondary">Read
+                                    <a href="{{url('e/view')}}" class="btn btn-sm btn-outline-info">Read
                                         more</a>
                                 </div>
                                 <small class="text-muted">9 mins</small>
@@ -162,7 +161,7 @@
                                 additional content. This content is a little bit longer.</p>
                             <div class="d-flex justify-content-between align-items-center">
                                 <div class="btn-group">
-                                    <a href="{{url('/view')}}" class="btn btn-sm btn-outline-secondary">Read
+                                    <a href="{{url('/view')}}" class="btn btn-sm btn-outline-info">Read
                                         more</a>
                                 </div>
                                 <small class="text-muted">9 mins</small>
@@ -178,7 +177,7 @@
                                 additional content. This content is a little bit longer.</p>
                             <div class="d-flex justify-content-between align-items-center">
                                 <div class="btn-group">
-                                    <a href="{{url('/view')}}" class="btn btn-sm btn-outline-secondary">Read
+                                    <a href="{{url('/view')}}" class="btn btn-sm btn-outline-info">Read
                                         more</a>
                                 </div>
                                 <small class="text-muted">9 mins</small>
@@ -194,7 +193,7 @@
                                 additional content. This content is a little bit longer.</p>
                             <div class="d-flex justify-content-between align-items-center">
                                 <div class="btn-group">
-                                    <a href="{{url('/view')}}" class="btn btn-sm btn-outline-secondary">Read
+                                    <a href="{{url('/view')}}" class="btn btn-sm btn-outline-info">Read
                                         more</a>
                                 </div>
                                 <small class="text-muted">9 mins</small>
@@ -210,7 +209,7 @@
                                 additional content. This content is a little bit longer.</p>
                             <div class="d-flex justify-content-between align-items-center">
                                 <div class="btn-group">
-                                    <a href="{{url('/view')}}" class="btn btn-sm btn-outline-secondary">Read
+                                    <a href="{{url('/view')}}" class="btn btn-sm btn-outline-info">Read
                                         more</a>
                                 </div>
                                 <small class="text-muted">9 mins</small>
@@ -230,7 +229,7 @@
                 <p>Kesaksian adalah saksi rohani, yang diberikan oleh Roh Kudus, mengenai kebenaran Injil. Ketika kita
                     memberikan kesaksian, kita menyatakan kepada orang lain apa yang kita tahu benar melalui kuasa Roh.
                     berikut
-                    kesaksian anak-anak yayasan garam dunia.
+                    kesaksian anak-anak yayasan garam dunia. <a href="">Lihat Lainnya</a>
                 </p>
             </div>
 
@@ -244,7 +243,7 @@
                         saja menamatkan pendidikan SMP di SMP Negeri 1 Sidora.
                         <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                     </p>
-                    <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+                    <img src="{{url('img/kesaksian')}}/{{'1.jpg'}}" class="testimonial-img" alt="">
                     <h3>Desmil Andayanti Samaloisal</h3>
                     <h4>Anak Asuh</h4>
                 </div>
@@ -258,7 +257,7 @@
                         Siberut Utara dan masuk SMA di Jogja.
                         <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                     </p>
-                    <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+                    <img src="{{url('img/kesaksian')}}/{{'2.jpg'}}" class="testimonial-img" alt="">
                     <h3>Sarlina Saerejen</h3>
                     <h4>Anak Asuh</h4>
                 </div>
@@ -272,7 +271,7 @@
                         2003, dan saya adalah anak ketiga dari tiga bersaudara.
                         <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                     </p>
-                    <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+                    <img src="{{url('img/kesaksian')}}/{{'3.jpg'}}" class="testimonial-img" alt="">
                     <h3>Ariana Tri Kezia Buluaro</h3>
                     <h4>Anak Asuh</h4>
                 </div>
@@ -287,7 +286,7 @@
                         Mentawai.
                         <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                     </p>
-                    <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+                    <img src="{{url('img/kesaksian')}}/{{'4.jpg'}}" class="testimonial-img" alt="">
                     <h3>Depni Novela</h3>
                     <h4>Anak Asuh</h4>
                 </div>
@@ -302,7 +301,7 @@
                         saya agar saya selalu takut akan Tuhan.
                         <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                     </p>
-                    <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+                    <img src="{{url('img/kesaksian')}}/{{'5.jpg'}}" class="testimonial-img" alt="">
                     <h3>Sumita Taileleu</h3>
                     <h4>Anak Asuh</h4>
                 </div>

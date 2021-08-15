@@ -5,9 +5,9 @@
             <li data-target="#myCarousel" data-slide-to="1"></li>
             <li data-target="#myCarousel" data-slide-to="2"></li>
         </ol>
-        <div class="carousel-inner" >
+        <div class="carousel-inner">
             <div class="carousel-item active">
-                <img class="first-slide" src="{{asset('img/utama.jpg')}}" alt="">
+                <img class="first-slide img-fluid" src="{{asset('img/utama.jpg')}}" alt="">
                 <div class="container">
                     <div class="carousel-caption">
                         <a class="btn btn-lg btn-success" title="Whatsapp Yayasan Gardu"
@@ -16,11 +16,10 @@
                 </div>
             </div>
             <div class="carousel-item">
-                <img class="second-slide" src="{{asset('img/2.jpg')}}" alt="">
-
+                <img class="second-slide img-fluid" src="{{asset('img/2.jpg')}}" alt="">
             </div>
             <div class="carousel-item">
-                <img class="third-slide" src="{{asset('img/3.jpg')}}" alt="">
+                <img class="third-slide img-fluid" src="{{asset('img/3.jpg')}}" alt="">
             </div>
         </div>
         
@@ -33,5 +32,4 @@
             <span class="sr-only">Next</span>
         </a>
     </div>
-
 </main>
